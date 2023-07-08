@@ -1,0 +1,41 @@
+let last = document.getElementById("email");
+     last.onblur = function(){
+          last.style.background = "";
+          }
+        
+          last.onfocus = function()
+          {
+            last.style.background ="violet";
+         }
+
+         let l = document.getElementById("password");
+l.onblur = function(){
+     l.style.background = "";
+     }
+
+     l.onfocus = function()
+     {
+      l.style.background ="violet";
+      }
+         
+      
+function button(){
+      var email = document.getElementById("email").value;
+      var password = document.getElementById("password").value;
+
+          if(email=='')
+               {
+                  alert("Enter the email address");
+               }
+                  
+          if(password=='')
+               {
+                  alert("Enter the password");
+               }
+
+           if(email && password)
+               {
+                  alert("Login successfully");
+                  }
+}
+        

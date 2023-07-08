@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact us</title>
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.button {
+padding:10px;
+width: 100px;
+border-radius: 6px;
+}
+
+.button:hover {
+color: red;
+background-color: blue;
+}
+
+.class {
+  border-radius: 3px;
+  background-color: rgb(74, 74, 77);
+  padding: 30px;
+}
+.invalid {
+  border-color: red;
+}
+
+</style>
+</head>
+<body>
+
+<div class="class">
+    <h3 style="align-items: center;";>Contact Form</h3>
+
+  <form>
+    <label for="fname">First Name</label>
+    <input type="text" name="firstname" placeholder="First name" id="first">
+
+    <label for="lname">Last Name</label>
+    <input type="text" name="lastname" placeholder="Last name" id="last">
+    <label for="number">Phone number</label>
+    <input type="text" name="number" placeholder="Number" id="number">
+
+    <label for="city">City</label>
+    <select name="country">
+        <option value="select" style="color: rgb(66, 65, 65);">select</option>
+      <option value="australia">Chennai</option>
+      <option value="canada">Andhra</option>
+      <option value="usa">Kolkata</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea name="subject" placeholder="Write something" style="height:100px" id="select"></textarea>
+
+    <input type="submit" value="Submit" class="button" onclick="mybutton()">
+  </form>
+</div>
+
+
+
+<script>
+
+  let first= document.getElementById("first");
+  first.onblur = function()
+  {
+    first.style.background = "";
+  }
+
+  first.onfocus = function()
+  {
+    first.style.background ="violet";
+  }
+
+
+let last = document.getElementById("last");
+ last.onblur = function(){
+  last.style.background = "";
+  }
+
+  last.onfocus = function()
+  {
+    last.style.background ="violet";
+ }
+
+
+
+ let number = document.getElementById("number");
+ number.onblur = function(){
+  number.style.background = "";
+  }
+
+  number.onfocus = function()
+  {
+    number.style.background ="violet";
+ }
+
+
+ let select = document.getElementById("select");
+ select.onblur = function(){
+  select.style.background = "";
+  }
+
+  select.onfocus = function()
+  {
+    select.style.background ="violet";
+    select.style.color = "black";
+    select.style.fontStyle = "bold";
+ }
+
+</script>
+
+
+</body>
+</html>

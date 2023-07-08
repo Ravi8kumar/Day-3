@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Phase 1</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<style>
+
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+header h1 {
+    float: left;
+    background-color: #333;
+    color: white;
+}
+li {
+    float: right;
+}
+      
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 21px;
+    background-color: #333;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: green;
+}
+    </style>
+</head>
+<body>
+    
+    <header>
+        <ul>
+          <h1 style="float: left; display: flex; color: aqua;text-align: center;">Clouds</h1>
+            
+            <li><a class="active" href="#about">About</a></li>
+            
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#news">News</a></li>
+        
+            <li><a href="#home">Home</a></li>
+          </ul>  
+        
+    </header>
+
+        <section>
+            <img class="mySlides" src="https://wallpaperaccess.com/full/1631875.jpg" style="width:50%">
+            <img class="mySlides" src="https://c4.wallpaperflare.com/wallpaper/241/580/981/css-css3-wallpaper-preview.jpg" style="width:80%; height: 80vh;">
+            <img class="mySlides" src="https://w0.peakpx.com/wallpaper/1019/788/HD-wallpaper-javascript-glitter-logo-programming-language-grid-metal-background-javascript-creative-programming-language-signs-javascript-logo-thumbnail.jpg" style="width:100%">
+        </section>
+    <hr>
+          <h2 style="text-align: center;">Start to learn</h2>
+          <h2 style="text-align: center;">Basics</h2>
+          <h1 style="font-size: xx-large;">What is HTML?</h1>
+        <div class="class">
+          <p style="line-height: 50px; border-style: solid; border-color: rgb(207, 120, 125);" >
+            <strong>1.</strong>&nbsp; &nbsp;HTML stands for Hyper Text Markup Language.<br>
+            <strong>2.</strong>&nbsp; &nbsp;HTML is the standard markup language for creating Web pages.<br>
+            <strong>3.</strong>&nbsp; &nbsp;HTML describes the structure of a Web page.<br>
+            <strong>4.</strong>&nbsp; &nbsp;HTML consists of a series of elements.<br>
+            <strong>5.</strong>&nbsp; &nbsp;HTML elements tell the browser how to display the content.<br>
+            <strong>6.</strong>&nbsp; &nbsp;HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</p>
+
+            <h1 style="font-size: xx-large;">What is CSS?</h1>
+            <p style="line-height: 50px;border-style: solid; border-color: rgb(87, 87, 204);">
+                <strong>1.</strong>&nbsp; &nbsp;CSS stands for Cascading Style Sheets. <br>
+                <strong>2.</strong>&nbsp; &nbsp;CSS describes how HTML elements are to be displayed on screen, paper, or in other media. <br>
+                <strong>3.</strong>&nbsp; &nbsp;CSS saves a lot of work. It can control the layout of multiple web pages all at once. <br>
+                <strong>4.</strong>&nbsp; &nbsp;External stylesheets are stored in CSS files.</p>
+
+
+                <h1 style="font-size: xx-large;">What is Javascript?</h1>
+                <p style="line-height: 50px;border-style: solid; border-color: rgb(255, 255, 0) ;">
+                    <strong>1.</strong>&nbsp; &nbsp; JavaScript is the world's most popular programming language. <br>
+                    <strong>1.</strong>&nbsp; &nbsp;  JavaScript is the programming language of the Web. <br>
+                    <strong>1.</strong>&nbsp; &nbsp; JavaScript is easy to learn. <br>
+                    <strong>1.</strong>&nbsp; &nbsp; This tutorial will teach you JavaScript from basic to advanced.</p>
+
+                <div>
+                </div>
+                    <footer class="foot">
+                        <a href="#"><i class="fa fa-facebook-official"></i></a>
+                        <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-flickr"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="" style="background: black; float: right;">ada</a>
+                
+                    </footer>
+              </div>
+</body>
+
+<script src="index.js"></script>
+          
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Login</title>
+    <link rel="stylesheet" href="login.css">
+
+<style>
+body {
+    background: url(https://wallpaperaccess.com/full/2314950.jpg);
+   font-family: sans-serif;
+   padding: 150px;
+   margin-left: 30px;
+   background-repeat: no-repeat;
+   background-size: 100%;
+
+}
+
+div 
+{
+   width: 360px;
+   height: 320px;
+   margin: auto;
+   border-radius: 3px;
+   background-color: rgb(173, 179, 209);
+}
+
+
+h1{
+   text-align: center;
+   padding-top: 15px;
+}
+
+form {
+   width: 300px;
+   margin-left: 20px;
+}
+
+form label {
+   display: flex;
+   margin-top: 20px;
+   font-size: 18px;
+}
+
+form input {
+   width: 100%;
+   padding: 7px;
+   border: none;
+   border: 1px solid gray;
+   border-radius: 6px;
+   outline: none;
+}
+
+
+button{
+   width: 320px;
+   height: 35px;
+   margin-top: 20px;
+   border: none;
+   background-color: rgb(111, 116, 111);
+   color: black;
+   font-size: 18px;
+   cursor: pointer;
+}
+
+.class {
+    margin-right: 312px;
+}
+
+a {
+   padding-top: 10px;
+}
+
+</style>
+
+</head>
+<body>
+   <div class="abc"></div>
+      <div class="class">
+         
+        <h1 style="border-style: none; background-color: rgb(184, 103, 231);">Login Form</h1>
+         <form id="focus">
+               <label>Email</label>
+               <input type="email" placeholder="Email" id="email" >
+               <label>Password</label>
+               <input type="password" placeholder="Password" id="password" >
+            
+               <a Forgot href="password">Forgot password?</a>  
+            
+               <button type="submit" onclick="button()">Login</button><br><br>
+               <h4 style="text-align: center;">Not a member?<a href="signup">Signup now</a></h4>
+         </form>
+      </div>
+      <script src="login.js"></script>
+         
+</body>
+</html>
+
+
+

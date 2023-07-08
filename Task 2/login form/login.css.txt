@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.class {
+    background: url("https://e1.pxfuel.com/desktop-wallpaper/581/154/desktop-wallpaper-backgrounds-for-login-page-login-page.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.abc {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcThsUW4aOo-UbJy4a7IG0rcz3dt1OaatHHQiw&usqp=CAU");
+    float: left;
+    opacity: 0.1;
+}
+
+button:hover {
+    color: white;
+    background: black;
+
+}
+
+form a:hover {
+    color: red;
+
+}
+
+h4 a:hover {
+    color: green;
+
+}
+
+
+
+
+
+/*if(email=='')
+{
+   alert("Enter the email address");
+}
+
+if(password=='')
+{
+   alert("Enter the password");
+}
+
+if(email && password){
+   alert("Login successfully");
+}
+}*/
